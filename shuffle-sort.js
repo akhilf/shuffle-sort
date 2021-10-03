@@ -48,7 +48,6 @@
         let tileContainer = document.getElementById('grid');
         tileContainer.innerHTML = numArrayObj.map(value => 
             `<div class='tile' style='background-color: ${colorCodes[value-1]}'><span>${value}</span></div>`).join(' ');
-        console.log(numArrayObj);
     }
     render();
 
